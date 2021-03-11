@@ -33,6 +33,9 @@ public class LoginServlet extends HttpServlet {
 			response.getWriter().print("<h2>Welcome</h2>");
 			else
 				response.getWriter().print("<h2>Faileds</h2>");
+		
+		System.out.println(user);
+		System.out.println(pass);
 	}
 
 }
