@@ -24,7 +24,7 @@ public class LoginServlet extends HttpServlet {
 	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		System.out.println("Test !!!");
+		System.out.println("Test Git webhook");
 		
 		String user = request.getParameter("uname");
 		String pass = request.getParameter("password");
